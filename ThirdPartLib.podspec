@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "http://github.com/harde1/ThirdPartLib.git", :commit => 'ca6c1043909b24bc1d4c6168e10f93b96932ef75 }
+  s.source       = { :git => "http://github.com/harde1/ThirdPartLib.git", :commit => 'ca6c1043909b24bc1d4c6168e10f93b96932ef75' }
 
   s.source_files  = "ThirdPartLib/*.{h,m}"
   s.requires_arc = true
