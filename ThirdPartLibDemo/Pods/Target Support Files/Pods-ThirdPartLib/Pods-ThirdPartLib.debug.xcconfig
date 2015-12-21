@@ -1,6 +1,0 @@
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/WXSDKCoreKit"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/WXSDKCoreKit/SDK1.6.2"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ReactiveCocoa" -isystem "${PODS_ROOT}/Headers/Public/WXSDKCoreKit"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"ReactiveCocoa" -l"WeChatSDK" -l"c++" -l"sqlite3" -l"z" -framework "CoreTelephony" -framework "SystemConfiguration"
-PODS_ROOT = ${SRCROOT}/Pods
