@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "http://github.com/harde1/ThirdPartLib.git", :commit => 'cb021545f4dfd82a26792a27107f0ce70eeb0595 }
 
-  s.source_files  = "ThirdPartLib", "ThirdPartLib/*.{h,m}"
+  s.source_files  = "ThirdPartLib/*.{h,m}"
   s.requires_arc = true
 
   s.dependency "ReactiveCocoa", "2.5"
