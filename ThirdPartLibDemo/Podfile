@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'ThirdPartLib' do
-    pod 'ThirdPartLib', :git =>'https://github.com/harde1/ThirdPartLib.git'
+    pod 'ThirdPartLib', :git =>'https://github.com/harde1/ThirdPartLib'
     
     
 end
