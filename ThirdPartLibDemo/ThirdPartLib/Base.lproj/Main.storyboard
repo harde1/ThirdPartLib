@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geN-rD-wvb">
+                                <rect key="frame" x="190" y="270" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="微信">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickWx:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aaS-io-SiQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9X-Xq-uAc">
+                                <rect key="frame" x="270" y="270" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="hI3-w6-4Ug"/>
+                                    <constraint firstAttribute="width" constant="60" id="pTE-Ja-cmR"/>
+                                </constraints>
+                                <state key="normal" title="QQ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickQQ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdx-sO-2tV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQc-Cd-rMa">
+                                <rect key="frame" x="350" y="270" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="微博">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickWeibo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="auQ-FH-k0v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XQc-Cd-rMa" firstAttribute="height" secondItem="h9X-Xq-uAc" secondAttribute="height" id="1d5-BN-kAQ"/>
+                            <constraint firstItem="XQc-Cd-rMa" firstAttribute="leading" secondItem="h9X-Xq-uAc" secondAttribute="trailing" constant="20" id="67n-Bw-pgd"/>
+                            <constraint firstItem="h9X-Xq-uAc" firstAttribute="width" secondItem="geN-rD-wvb" secondAttribute="width" id="CLG-0l-OwC"/>
+                            <constraint firstItem="XQc-Cd-rMa" firstAttribute="centerY" secondItem="geN-rD-wvb" secondAttribute="centerY" id="S57-04-zOI"/>
+                            <constraint firstItem="h9X-Xq-uAc" firstAttribute="leading" secondItem="geN-rD-wvb" secondAttribute="trailing" constant="20" id="TyA-dn-fbN"/>
+                            <constraint firstItem="h9X-Xq-uAc" firstAttribute="centerY" secondItem="geN-rD-wvb" secondAttribute="centerY" id="VBE-1z-Api"/>
+                            <constraint firstItem="h9X-Xq-uAc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b1w-MP-wJ5"/>
+                            <constraint firstItem="XQc-Cd-rMa" firstAttribute="width" secondItem="h9X-Xq-uAc" secondAttribute="width" id="eL9-kE-Sm5"/>
+                            <constraint firstItem="h9X-Xq-uAc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pxz-pP-FD4"/>
+                            <constraint firstItem="h9X-Xq-uAc" firstAttribute="height" secondItem="geN-rD-wvb" secondAttribute="height" id="v9g-n1-rW7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
