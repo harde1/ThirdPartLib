@@ -25,6 +25,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "ReactiveCocoa", "2.5"
-  s.dependency "WXSDKCoreKit", "~> 1.6.2"
 
 end
